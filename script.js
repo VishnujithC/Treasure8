@@ -1,11 +1,11 @@
 // script.js
-const correctAnswer = "silence"; // Replace with the actual answer
+const correctAnswer = "breath"; // Replace with the actual answer
 
 function checkAnswer() {
     const userAnswer = document.getElementById("answer").value.toLowerCase();
 
     if (userAnswer === correctAnswer) {
-        document.getElementById("correct").innerHTML = '<h1>Congratulations! You solved the riddle. Clue: canteen';
+        document.getElementById("correct").innerHTML = '<h1>Congratulations! You solved the riddle. Clue: DF67U';
         
     } else {
         document.getElementById("correct").innerHTML = '<h1>Oops.Try again</h1>';
